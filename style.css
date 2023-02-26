@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tilt+Neon&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.calculadora{
+    max-width: 400px;
+    height: 500px;
+    background: rgb(78,62,184);
+    background: linear-gradient(54deg, rgba(78,62,184,1) 0%, rgba(253,29,29,1) 50%, rgba(108,230,19,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.pantalla{
+    width: 90%;
+    height: 50px;
+    background: rgb(210, 209, 209);
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 30px;
+    display: flex;
+    font-family: 'Press Start 2P', cursive;
+}
+.pantalla span{
+    margin: 8px;
+}
+
+.botones{
+    width: 85%;
+    height: 370px;
+}
+.fila{
+    display: flex;
+    width: 100%;
+}
+button{
+    width: 25%;
+    height: 50px;
+    margin: 10px;
+    background: rgb(22,12,89);
+    background: linear-gradient(241deg, rgba(22,12,89,1) 0%, rgba(100,3,3,1) 100%);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 22px;
+    color: #fff;
+}
+
+#igual{
+    width: 100%;
+}
